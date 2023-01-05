@@ -20,3 +20,14 @@ word = "bender"
 print(word[1:4])
 
 output: "and"
+
+-------------------------------------------------------------------------------------------------
+5.23 Slice Assignment
+
+customers = ['Marie', 'Anne', 'Donald']
+customers[2:4] = ['Barack', 'Olivia', 'Sophia']
+print(customers)
+
+output:[`Marie', `Anne', `Barack', `Olivia',
+`Sophia']
+
